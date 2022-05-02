@@ -6,23 +6,57 @@
 // let userAge = 2022 - answerAge;
 // alert(userAge);
 
+
+
+
+// const enterFirstNumber = prompt('Enter first number');
+// const enterSecondNumber = prompt('Enter second number');
+
+
+// const threeNumber = +enterFirstNumber + +enterSecondNumber;
+// const sum = enterFirstNumber + '+' + enterSecondNumber + '=' + threeNumber;
+// console.log(sum);
+
+
+// const minusNumber = +enterFirstNumber - +enterSecondNumber;
+// const diff = enterFirstNumber + '-' + enterSecondNumber + '=' + minusNumber;
+// console.log(diff);
+
+
+// const multiplyNumber = +enterFirstNumber * +enterSecondNumber;
+// const mult = enterFirstNumber + '*' + enterSecondNumber + '=' + multiplyNumber;
+// console.log(mult);
+
+// const divideNumber = +enterFirstNumber / +enterSecondNumber;
+// const div = enterFirstNumber + '/' + enterSecondNumber + '=' + divideNumber;
+// console.log(div);
+
+
+
+
+
+const chooseOperations = prompt('Choose your\'re operations');
 const enterFirstNumber = prompt('Enter first number');
+
+if (chooseOperations === 'cos'){
+  alert(Math.cos(+enterFirstNumber));
+} else if (chooseOperations === 'sin'){
+  alert(Math.sin(+enterFirstNumber));
+} else if (chooseOperations === 'pow'){
+  alert(Math.pow(+enterFirstNumber));
+}
+
 const enterSecondNumber = prompt('Enter second number');
 
+if (chooseOperations === '*'){
+  alert(+enterFirstNumber * +enterSecondNumber);
+} else if (chooseOperations === '-'){
+  alert(+enterFirstNumber - +enterSecondNumber);
+} else if (chooseOperations === '+'){
+  alert(+enterFirstNumber + +enterSecondNumber);
+} else if(chooseOperations === '/'){
+  alert(+enterFirstNumber / +enterSecondNumber);
+} else if(chooseOperations === '%'){
+  alert(+enterFirstNumber % +enterSecondNumber);
+}
 
-const threeNumber = +enterFirstNumber + +enterSecondNumber;
-const sum = enterFirstNumber + '+' + enterSecondNumber + '=' + threeNumber;
-console.log(sum);
-
-const minusNumber = +enterFirstNumber - +enterSecondNumber;
-const diff = enterFirstNumber + '-' + enterSecondNumber + '=' + minusNumber;
-console.log(diff);
-
-
-const multiplyNumber = +enterFirstNumber * +enterSecondNumber;
-const mult = enterFirstNumber + '*' + enterSecondNumber + '=' + multiplyNumber;
-console.log(mult);
-
-const divideNumber = +enterFirstNumber / +enterSecondNumber;
-const div = enterFirstNumber + '/' + enterSecondNumber + '=' + divideNumber;
-console.log(div);
