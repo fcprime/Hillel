@@ -38,25 +38,28 @@
 const chooseOperations = prompt('Choose your\'re operations');
 const enterFirstNumber = prompt('Enter first number');
 
-if (chooseOperations === 'cos'){
+if (chooseOperations === 'cos')
   alert(Math.cos(+enterFirstNumber));
-} else if (chooseOperations === 'sin'){
+ else if(chooseOperations === 'sin')
   alert(Math.sin(+enterFirstNumber));
-} else if (chooseOperations === 'pow'){
+ else if(chooseOperations === 'pow'){
   alert(Math.pow(+enterFirstNumber));
-}
-
-const enterSecondNumber = prompt('Enter second number');
+};
 
 if (chooseOperations === '*'){
+  const enterSecondNumber = prompt('Enter second number');
   alert(+enterFirstNumber * +enterSecondNumber);
 } else if (chooseOperations === '-'){
+  const enterSecondNumber = prompt('Enter second number');
   alert(+enterFirstNumber - +enterSecondNumber);
 } else if (chooseOperations === '+'){
+  const enterSecondNumber = prompt('Enter second number');
   alert(+enterFirstNumber + +enterSecondNumber);
 } else if(chooseOperations === '/'){
+  const enterSecondNumber = prompt('Enter second number');
   alert(+enterFirstNumber / +enterSecondNumber);
 } else if(chooseOperations === '%'){
+  const enterSecondNumber = prompt('Enter second number');
   alert(+enterFirstNumber % +enterSecondNumber);
 }
 
