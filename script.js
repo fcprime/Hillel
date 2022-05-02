@@ -44,7 +44,7 @@ if (chooseOperations === 'cos')
   alert(Math.sin(+enterFirstNumber));
  else if(chooseOperations === 'pow'){
   const enterSecondNumber = prompt('Enter second number');
-  alert(Math.pow(+enterFirstNumber, enterSecondNumber));
+  alert(Math.pow(+enterFirstNumber, +enterSecondNumber));
 };
 
 if (chooseOperations === '*'){
